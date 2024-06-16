@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Card from "./components/card";
 
 function App() {
-
   return (
     <>
-    <h1 className="text-3xl font-bold unerline">
-      Hello world!
-    </h1>
+      <Card username= "Ritu" BtnText="Click Me" />
+      <Card username="Sara"  />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
